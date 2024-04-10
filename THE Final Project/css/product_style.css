@@ -1,0 +1,103 @@
+/* style for the container div */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+p{
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Styles for div images */
+.pizza-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+/* Styles for the class card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  perspective: 1000px;
+}
+
+/* Styles for the image in the card */
+.card img {
+  object-fit: contain;
+  /*favors smooth transformation of images */
+  transition: transform 0.6s;
+  width: 100%;
+  /* Hides the back side of the element when not facing the screen */
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  /* Initial state of the image */
+  transform: rotateY(0deg);
+
+}
+
+/* Styles for the description in the card */
+.card .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transform: rotateY(180deg);
+  transition: transform 0.6s;
+  width: 100%;
+  backface-visibility: hidden;
+  top: 0;
+  height: 100%;
+}
+
+/* Styles for the p tag within the description div */
+.card .description p {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+/* Styles for the images when hovered in card format */
+.card:hover img {
+  /* Flips the image to the back when hovered */
+  transform: rotateY(-180deg);
+
+}
+
+.card:hover .description {
+  /* Flips the description to the front when hovered */
+  transform: rotateY(0deg);
+}
+
+/* Styles for rows */
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-bottom: 20px; 
+}
+
+
