@@ -1,3 +1,4 @@
+/* Made by Oman Kunwar */
 /* style for the container div */
 .container {
   max-width: 800px;
@@ -13,13 +14,6 @@ h1 {
 p{
   color: #666;
   font-size: 1rem;
-}
-
-/* Styles for div images */
-.pizza-images {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
 }
 
 /* Styles for the class card */
@@ -51,7 +45,6 @@ p{
   height: 100%;
   /* Initial state of the image */
   transform: rotateY(0deg);
-
 }
 
 /* Styles for the description in the card */

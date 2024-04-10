@@ -15,5 +15,4 @@ function nextImage() {
     currentImageIndex = (currentImageIndex + 1) % images.length;
     showImage(currentImageIndex);
 }
-
 setInterval(nextImage, 3000);

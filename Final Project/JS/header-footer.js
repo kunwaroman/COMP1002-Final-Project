@@ -18,10 +18,10 @@ header.innerHTML = `
             </div>
         </li>
 
-        <li> <a href="home.html" target="_blank">Home</a></li>
-        <li> <a href="#">About Us</a></li>
-        <li> <a href="product.html" target="_blank">Product </a> </li>
-        <li> <a href="contact.html" target="_blank">Contact Us </a> </li>
+        <li> <a href="home.html">Home</a></li>
+        <li> <a href="aboutus.html">About Us</a></li>
+        <li> <a href="product.html" >Product </a> </li>
+        <li> <a href="contact.html" >Contact Us </a> </li>
 
     </ul>
 </nav>

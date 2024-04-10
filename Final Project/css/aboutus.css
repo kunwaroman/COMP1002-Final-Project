@@ -1,0 +1,29 @@
+/* Styling company information */
+
+.content {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  max-width: 45%;
+}
