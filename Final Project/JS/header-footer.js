@@ -18,7 +18,7 @@ header.innerHTML = `
             </div>
         </li>
 
-        <li> <a href="home.html">Home</a></li>
+        <li> <a href="index.html">Home</a></li>
         <li> <a href="aboutus.html">About Us</a></li>
         <li> <a href="product.html" >Product </a> </li>
         <li> <a href="contact.html" >Contact Us </a> </li>
